@@ -2,6 +2,8 @@
 
 CAKE is an open-hardware automation module built around the **ESP12F** (ESP8266) and **ESP32**, designed to retrofit any switchboard — home, office, or factory — into a remotely controllable, schedulable, MQTT-connected smart switch. It's the hardware side of **Minisense**, a project incubated at [KIT's Innovation & Research Foundation](https://kitirf.org/) under the DST NIDHI i-TBI program.
 
+**Project started:** June 2023 | **Latest hardware revision:** February 2024
+
 > Status: hardware design is in active iteration (see version history below). Firmware and the companion server/dashboard/app are planned but not yet implemented in this repo — see [`firmware/`](firmware/) and [`software/`](software/).
 
 ## What it does
@@ -41,12 +43,12 @@ All hardware files originate from EasyEDA/OSHWLab exports. BOM CSVs were re-enco
 
 ## Version history
 
-| Version | Board | Status | Notes |
-|---|---|---|---|
-| `esp12f16bit` | ESP12F IO breakout | Early prototype | DIP shift registers, no relay stage — precursor to the relay board below |
-| `master` | ESP12F MCU | Tested prototype | First relay-board layout to be bench-tested |
-| `v1.0.3` | ESP12F MCU | Superseded | Added PCB footprint for a future dimming signal |
-| `v1.0.4` | ESP12F MCU | **Current** | 8-load capacity, extendable with a second board for 8 more loads |
+| Version | Board | Started | Last updated | Status | Notes |
+|---|---|---|---|---|---|
+| `esp12f16bit` | ESP12F IO breakout | Early 2023 | — | Early prototype | DIP shift registers, no relay stage — precursor to the relay board below |
+| `master` | ESP12F MCU | 2023-06-23 | 2023-06-26 | Tested prototype | First relay-board layout to be bench-tested |
+| `v1.0.3` | ESP12F MCU | 2023-06-26 | 2024-02-08 | Superseded | Added PCB footprint for a future dimming signal |
+| `v1.0.4` | ESP12F MCU | 2024-02-08 | 2024-02-09 | **Current** | 8-load capacity, extendable with a second board for 8 more loads |
 
 ## License
 

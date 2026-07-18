@@ -1,5 +1,7 @@
 # master — first tested prototype
 
+**Created:** 2023-06-23 | **Last updated:** 2023-06-26
+
 The earliest bench-tested board. The BOM at this stage covers the ESP12F, the
 74HC595/74HC165 shift-register IO expansion, the HLK-PM01L power supply, and header
 breakouts — the relay-driving stage (relays, transistors, flyback diodes) had not yet been

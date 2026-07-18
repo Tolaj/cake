@@ -1,5 +1,7 @@
 # v1.0.4 (current)
 
+**Created:** 2024-02-08 | **Last updated:** 2024-02-09
+
 8-load capacity relay board, extendable to 8 more loads via a second board. Current
 production revision.
 

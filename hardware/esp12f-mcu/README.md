@@ -21,6 +21,12 @@ isolated HLK-PM01 AC-DC converter.
 
 ## Versions
 
+| Version | Created | Last updated | Status |
+|---|---|---|---|
+| `master` | 2023-06-23 | 2023-06-26 | First tested prototype |
+| `v1.0.3` | 2023-06-26 | 2024-02-08 | Superseded |
+| `v1.0.4` | 2024-02-08 | 2024-02-09 | **Current** |
+
 - **[`master/`](master/)** — earliest tested prototype. No relay-driving stage in the BOM yet
   (just the ESP12F, shift registers, PSU, and header breakout) — this was the board used to
   validate the core MCU + IO-expander circuit before the relay stage was added.
