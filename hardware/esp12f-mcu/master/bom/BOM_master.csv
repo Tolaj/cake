@@ -1,0 +1,12 @@
+ID	Name	Designator	Footprint	Quantity	Manufacturer Part	Manufacturer	Supplier	Supplier Part	Price	Pins	Contributor	JLCPCB Part Class	Resistance (Ohms)	link
+"1"	"220uF"	"C1,C2"	"CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"	"2"	"MVG 16V 220UF 6.3*7.7"	"SAMYOUNG(韩国三莹)"	"LCSC"	"C2827940"	"0.115"	"2"	"LCSC"	"Extended Part"	""	""
+"2"	"10uF"	"C3,C4"	"C0805"	"2"	"TCC0805X7R106K100FT"	"CCTC(三环)"	"LCSC"	"C380346"	"0.132"	"2"	"LCSC"	"Extended Part"	""	""
+"3"	"KH-2.54PH180-1X6P-L11.5"	"H1"	"HDR-TH_6P-P2.54-V-M-1"	"1"	"KH-2.54PH180-1X6P-L11.5"	"kinghelm(金航标)"	"LCSC"	"C2905486"	"0.046"	"6"	"LCSC"	"Extended Part"	""	""
+"4"	"KH-2.54PH180-1X9P-L11.5"	"H1(SWITCH),H2(LOAD)"	"HDR-TH_9P-P2.54-V-M"	"2"	"KH-2.54PH180-1X9P-L11.5"	"kinghelm(金航标)"	"LCSC"	"C2932701"	"0.064"	"9"	"LCSC"	"Extended Part"	""	""
+"5"	"M02"	"JP1"	"SCREWTERMINAL-5MM-2"	"1"	""	""	""	""	""	"2"	"SparkFun"	""	""	""
+"6"	"AMS1117-3.3-YJLTY"	"NO1"	"SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"	"1"	"AMS1117-3.3-YJLTY"	"null"	"LCSC"	"C9900003397"	""	"4"	"LCSC"	"Extended Part"	""	""
+"7"	"HLK-PM01L"	"PS1"	"HLK-PM01L"	"1"	"HLK-PM01L"	"HI-LINK"	"HI-LINK"	""	""	"4"	"sbatraAmolvo"	""	""	""
+"8"	"10kΩ"	"R1,R2,R3,R4,R6,R7,R8,R9,R10,R11,R12,R13"	"R0805"	"12"	"RMCF0805FT10K0"	"SEI(Stackpole Electronics Inc.)"	"LCSC"	"C237755"	"0.007"	"2"	"LCSC"	"Extended Part"	"10K"	""
+"9"	"AJT_ESP12F_Long"	"U1"	"AJT_ESP12F_LONG"	"1"	""	""	""	""	""	"16"	"AlanTompkins"	""	""	""
+"10"	"SN74HC165PWR"	"U4"	"TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"	"1"	"SN74HC165PWR"	"TI(德州仪器)"	"LCSC"	"C43420"	"0.254"	"16"	""	"Extended Part"	""	""
+"11"	"SN74HC595PWR"	"U6"	"TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"	"1"	"SN74HC595PWR"	"TI(德州仪器)"	"LCSC"	"C273642"	"0.219"	"16"	"LCSC"	"Extended Part"	""	""

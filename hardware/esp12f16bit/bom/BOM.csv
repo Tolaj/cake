@@ -1,0 +1,13 @@
+ID	Name	Designator	Footprint	Quantity	Manufacturer Part	Manufacturer	Supplier	Supplier Part	Price	Pins	Contributor	JLCPCB Part Class	Resistance (Ohms)	link
+"1"	"220uF"	"C1,C2"	"CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"	"2"	"MVG 16V 220UF 6.3*7.7"	"SAMYOUNG(韩国三莹)"	"LCSC"	"C2827940"	"0.115"	"2"	"LCSC"	"Extended Part"	""	""
+"2"	"10uF"	"C3,C4"	"C0805"	"2"	"TCC0805X7R106K100FT"	"CCTC(三环)"	"LCSC"	"C380346"	"0.132"	"2"	"LCSC"	"Extended Part"	""	""
+"3"	"KH-2.54PH180-1X9P-L11.5"	"H1,H2"	"HDR-TH_9P-P2.54-V-M"	"2"	"KH-2.54PH180-1X9P-L11.5"	"kinghelm(金航标)"	"LCSC"	"C2932701"	"0.064"	"9"	"LCSC"	"Extended Part"	""	""
+"4"	"M02"	"JP1"	"SCREWTERMINAL-5MM-2"	"1"	""	""	""	""	""	"2"	"SparkFun"	""	""	""
+"5"	"AMS1117-3.3-YJLTY"	"NO"	"SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"	"1"	"AMS1117-3.3-YJLTY"	"null"	"LCSC"	"C9900003397"	""	"4"	"LCSC"	"Extended Part"	""	""
+"6"	"10kΩ"	"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13"	"R0805"	"13"	"RMCF0805FT10K0"	"SEI(Stackpole Electronics Inc.)"	"LCSC"	"C237755"	"0.007"	"2"	"LCSC"	"Extended Part"	"10K"	""
+"7"	"TC-0513-4.5-160G"	"SW1"	"SW-SMD_4P-L4.5-W4.5-P3.00-LS6.8"	"1"	"TC-0513-4.5-160G"	"HCTL(华灿天禄)"	"LCSC"	"C2845305"	"0.018"	"4"	"LCSC"	"Extended Part"	""	""
+"8"	"AJT_ESP12F_Long"	"U1"	"AJT_ESP12F_LONG"	"1"	""	""	""	""	""	"16"	"AlanTompkins"	""	""	""
+"9"	"HILINK 5V"	"U2"	"HILINK_5V"	"1"	"HILINK 5V"	""	""	""	""	"4"	"i.kamsai"	""	""	""
+"10"	"RE-H042TD-1190(LF)(SN)"	"U3"	"HDR1X4"	"1"	"RE-H042TD-1190(LF)(SN)"	"JST Sales America"	"LCSC"	"C265319"	""	"4"	"LCSC"	""	""	""
+"11"	"SN74HC595N"	"U4"	"DIP-16_L19.8-W6.5-P2.54-LS7.6-BL"	"1"	"SN74HC595N"	"TI(德州仪器)"	"LCSC"	"C78711"	"1.338"	"16"	""	"Extended Part"	""	""
+"12"	"SN74HC165N"	"U5"	"DIP-16_L19.8-W6.5-P2.54-LS7.6-BL"	"1"	"SN74HC165N"	"TI(德州仪器)"	"LCSC"	"C2909"	"0.789"	"16"	""	"Extended Part"	""	""

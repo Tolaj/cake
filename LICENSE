@@ -1,0 +1,9 @@
+This repository is dual-licensed:
+
+- Hardware designs (everything under `hardware/`): CERN Open Hardware Licence
+  Version 2 - Strongly Reciprocal (CERN-OHL-S v2). Full text: [LICENSE-HARDWARE](LICENSE-HARDWARE).
+- Firmware and software (everything under `firmware/` and `software/`): MIT
+  License. Full text: [LICENSE-SOFTWARE](LICENSE-SOFTWARE).
+
+Documentation under `docs/` is provided for reference and is not covered by
+either license above; contact the authors before redistributing it.
