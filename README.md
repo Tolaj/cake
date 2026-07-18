@@ -4,7 +4,7 @@ CAKE is an open-hardware automation module built around the **ESP12F** (ESP8266)
 
 **Project started:** June 2023 | **Latest hardware revision:** February 2024
 
-> Status: hardware design is in active iteration (see version history below). Firmware and the companion server/dashboard/app are planned but not yet implemented in this repo — see [`firmware/`](firmware/) and [`software/`](software/).
+> Status: hardware design is in active iteration (see version history below). The MQTT backend server and web dashboard are implemented (see [`software/`](software/)). Firmware for the ESP12F/ESP32 is planned but not yet in this repo — see [`firmware/`](firmware/).
 
 ## What it does
 
@@ -12,7 +12,8 @@ CAKE is an open-hardware automation module built around the **ESP12F** (ESP8266)
 - Uses **74HC595 / 74HC165** shift registers to multiplex relay outputs and switch inputs over a handful of ESP12F GPIOs.
 - Powers itself directly off mains via an **HLK-PM01** isolated AC-DC module, with an **AMS1117-3.3** regulator for the logic rail.
 - Talks to the outside world over Wi-Fi using **MQTT**, intended to connect to a self-hosted **EMQX** broker.
-- Planned software layer (per the original MVP roadmap, not yet in this repo): a Node.js backend, a React web dashboard, and a React Native mobile app for scheduling, remote control, and energy-usage monitoring.
+- Includes a **Node.js + Express + Socket.IO** backend that bridges the EMQX MQTT broker to web clients, and a **Next.js web dashboard** for real-time device control (see [`software/`](software/)).
+- A React Native mobile app for scheduling, remote control, and energy-usage monitoring is planned but not yet implemented.
 
 See [`docs/KIT-IRF_Pitch_Deck_Minisense.pdf`](docs/KIT-IRF_Pitch_Deck_Minisense.pdf) for the original problem statement/market pitch, and [`docs/CAKE_MVP_Roadmap.pdf`](docs/CAKE_MVP_Roadmap.pdf) for the 3-month MVP plan this project was built against.
 
@@ -28,7 +29,9 @@ cake/
 │   │   └── v1.0.4/          Current revision (8-load capacity, extendable)
 │   └── esp12f16bit/         Earlier ESP12F + shift-register breakout (DIP/through-hole)
 ├── firmware/                 (planned) ESP12F/ESP32 firmware
-└── software/                 (planned) MQTT broker config, backend server, dashboard, mobile app
+└── software/
+    ├── server/              EMQX broker (Docker) + Node.js/Express/Socket.IO bridge
+    └── client/              Next.js web dashboard (Tailwind CSS, Ant Design, mqtt.js)
 ```
 
 Each hardware version folder contains its own `README.md` with what's inside and what changed. Every version ships:
@@ -53,7 +56,7 @@ All hardware files originate from EasyEDA/OSHWLab exports. BOM CSVs were re-enco
 ## License
 
 - **Hardware** (schematics, PCB layouts, BOMs under `hardware/`) is licensed under [CERN-OHL-S v2](LICENSE-HARDWARE) — you're free to use, modify, and manufacture it, but derivatives distributed to others must be released under the same license.
-- **Firmware and software** (once added under `firmware/` and `software/`) is licensed under the [MIT License](LICENSE-SOFTWARE).
+- **Firmware and software** (under `firmware/` and `software/`) is licensed under the [MIT License](LICENSE-SOFTWARE).
 
 ## Contributing
 

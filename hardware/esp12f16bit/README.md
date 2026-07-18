@@ -10,5 +10,6 @@ Noted as functionally tested during development.
 - `schematic/` — schematic PDF export
 - `pcb/` — PCB layout exports (two passes from 2026-07-18)
 - `bom/BOM.csv` — bill of materials with LCSC/JLCPCB part numbers
+- `images/` — 3D renders
 
 No editable EasyEDA source was exported for this board.
