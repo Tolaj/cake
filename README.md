@@ -61,4 +61,4 @@ Issues and PRs are welcome — whether that's a schematic review, a firmware imp
 
 ## Team
 
-Built by Swapnil Jadhav, Sandip Mate, and Swapnil Rathod as part of the Minisense project.
+Built by Swapnil Jadhav as part of the Minisense project.
